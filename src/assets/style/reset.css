@@ -1,0 +1,93 @@
+body {
+    background-color: #EDF2F6;
+    font: 15px "Muli, sans-serif";
+    transition: all .6s !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.padding-xs {
+    padding: 10px;
+}
+
+.margin-xs {
+    margin: 5px;
+}
+
+pre {
+    border: 1px solid #e1e2e3;
+}
+
+input,
+button,
+a {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 夜间模式 */
+
+.dark {
+    background-color: #171917 !important;
+}
+
+.disdark {
+    background-color: #fff;
+}
+
+.dark div,
+.dark a,
+.dark p {
+    color: rgb(143, 143, 143) !important;
+}
+
+
+/* margin */
+
+.margin-top {
+    margin-top: 20px;
+}
+
+
+/* 动画 */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        margin-top: 80px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp .6s;
+    -webkit-animation: fadeInUp .6s;
+}
