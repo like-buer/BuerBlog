@@ -38,7 +38,9 @@
                 </a>
               </li>
               <li>
-                <img src="../assets/images/github.png" alt />
+                <a href="https://github.com/like-buer/BuerBlog" target='_blank'>
+                  <img src="../assets/images/github.png" alt />
+                </a>
               </li>
             </ul>
           </div>
